@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDriven", "DapperDriven\DapperDriven.csproj", "{3E64B117-6EE5-471F-B640-ED3AF04F3100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDriven.Web", "DapperDriven.Web\DapperDriven.Web.csproj", "{C1E02055-28AE-4373-B7D5-F8986B2C3FE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3E64B117-6EE5-471F-B640-ED3AF04F3100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E64B117-6EE5-471F-B640-ED3AF04F3100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E64B117-6EE5-471F-B640-ED3AF04F3100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E02055-28AE-4373-B7D5-F8986B2C3FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E02055-28AE-4373-B7D5-F8986B2C3FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E02055-28AE-4373-B7D5-F8986B2C3FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E02055-28AE-4373-B7D5-F8986B2C3FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
