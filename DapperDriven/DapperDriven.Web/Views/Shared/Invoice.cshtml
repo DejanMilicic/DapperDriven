@@ -1,0 +1,21 @@
+﻿@model DapperDriven.Model.Invoice
+
+<div class="row">
+    <h1>Invoice</h1>
+
+    InvoiceId : @Model.InvoiceId <br />
+    CustomerId : @Model.CustomerId <br />
+    InvoiceDate : @Model.InvoiceDate <br />
+    Billing Address : @Model.BillingAddress <br />
+    Billing City : @Model.BillingCity <br />
+    Billing State : @Model.BillingState <br />
+    Billing Country : @Model.BillingCountry <br />
+    Bulling Postal Code : @Model.BillingPostalCode <br />
+    Total : @Model.Total <br />
+
+    @Html.Partial("Customer", Model.Customer)
+
+
+</div>
+
+

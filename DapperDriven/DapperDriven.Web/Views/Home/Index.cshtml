@@ -3,18 +3,4 @@
     ViewBag.Title = "Home Page";
 }
 
-
-<div class="row">
-    <h1>Invoice</h1>
-
-    InvoiceId : @Model.Invoice.InvoiceId <br />
-    CustomerId : @Model.Invoice.CustomerId <br />
-    InvoiceDate : @Model.Invoice.InvoiceDate <br />
-    Billing Address : @Model.Invoice.BillingAddress <br />
-    Billing City : @Model.Invoice.BillingCity <br />
-    Billing State : @Model.Invoice.BillingState <br />
-    Billing Country : @Model.Invoice.BillingCountry <br />
-    Bulling Postal Code : @Model.Invoice.BillingPostalCode <br />
-    Total : @Model.Invoice.Total <br />
-    
-</div>
+@Html.Partial("Invoice", Model.Invoice)
