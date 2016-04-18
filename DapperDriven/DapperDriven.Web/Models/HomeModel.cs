@@ -8,6 +8,6 @@ namespace DapperDriven.Web.Models
 {
     public class HomeModel
     {
-        public Invoice Invoice { get; set; }
+        public Invoice InvoiceLevel1 { get; set; }
     }
 }

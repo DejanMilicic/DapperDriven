@@ -9,7 +9,7 @@ namespace DapperDriven
 {
     public class Repository
     {
-        public Invoice GetInvoice(int id)
+        public Invoice GetInvoiceExpandLevel1(int id)
         {
             Invoice invoice;
 
