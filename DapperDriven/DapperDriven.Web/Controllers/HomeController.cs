@@ -15,7 +15,7 @@ namespace DapperDriven.Web.Controllers
             Repository repository = new Repository();
 
             HomeModel model = new HomeModel();
-            model.InvoiceLevel1 = repository.GetInvoiceExpandLevel1(5);
+            model.InvoiceLevel2 = repository.GetInvoiceExpandLevel2(5);
 
             return View(model);
         }

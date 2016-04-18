@@ -1,0 +1,27 @@
+﻿@model DapperDriven.Model.Employee
+
+@if (Model != null)
+{
+    <text>
+    <hr />
+    <h4>Employee</h4>
+
+    Employee Id : @Model.EmployeeId <br />
+    LastName : @Model.LastName <br />
+    FirstName : @Model.FirstName <br />
+    Title : @Model.Title <br />
+    ReportsTo : @Model.ReportsTo <br />
+    BirthDate : @Model.BirthDate.Value <br />
+    HireDate : @Model.HireDate.Value <br />
+    Address : @Model.Address <br />
+    City : @Model.City <br />
+    State : @Model.State <br />
+    Country : @Model.Country <br />
+    PostalCode : @Model.PostalCode <br />
+    Phone : @Model.Phone <br />
+    Fax : @Model.Fax <br />
+    Email : @Model.Email 
+    <hr />
+    </text>
+}
+
